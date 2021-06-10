@@ -1,0 +1,54 @@
+.home img {
+    width: 2110px;
+    height: auto;
+    margin-left: -405px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.homecontent {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homecontent h1 {
+    color: #0275d8;
+    font-size: 60px;
+}
+
+.homecontent a {
+    margin-top: 10px;
+}
+
+.fontsize {
+    font-size: 20px;
+
+}
+
+
+@media screen and (max-width:600px)
+{
+    .home img {
+        width: 795px;
+        height: 700px;    
+        object-position: center;
+        object-fit: cover;
+    }
+
+    .homecontent {
+        top: 65%;
+        left: 50%;
+    }
+
+    .homecontent h1
+    {
+        font-size: 40px;
+        color: #0275d8;
+    }
+
+    .fontsize {
+        font-size: 16px;
+    }
+}
