@@ -10,8 +10,9 @@ import { ThrowStmt } from '@angular/compiler';
 })
 export class SharedService {
 
-readonly APIUrl="http://localhost:65274/api"
-
+// readonly APIUrl="http://localhost:65274/api"
+readonly APIUrl="https://dev-www.escweb.net/api"
+  
   constructor(private http:HttpClient) {}
 
   updateRoom(val:any){
